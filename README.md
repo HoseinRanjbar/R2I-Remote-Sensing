@@ -35,10 +35,10 @@
 
 | Model | Performance Rank | RobustBench Rank | Test Acc (%) | PGD (4/255) (%) | Δ Acc (%) | Fine-tuned Checkpoint (ckpt) |
 |---|---:|---:|---:|---:|---:|:--:|
-| Chen et al.   | 3 | 38 | 57.33 | 43.00 | 14.33 | [ckpt](URL_OR_PATH) |
+| Chen et al.   | 3 | 38 | 57.33 | 43.00 | 14.33 | [ckpt](https://huggingface.co/MohammadFazli/xAI-remote-sensing-dior-model/blob/main/best_data_filtering_wrn_34_20.pth) |
 | Rade et al.    | 1 | 21 | 67.67 | 47.33 | 20.34 | [ckpt](https://huggingface.co/HosseinRanjbar/remote_sensing/blob/main/best_helper_remote_sensing.pth) |
-| Rebuffi et al. | 2 | 11 | 68.33 | 37.33 | 31.00 | [ckpt](URL_OR_PATH) |
-| Standard      | 4 | 99 | 52.33 | 0.00  | 52.33 | [ckpt](URL_OR_PATH) |
+| Rebuffi et al. | 2 | 11 | 68.33 | 37.33 | 31.00 | [ckpt](https://huggingface.co/MohammadFazli/xAI-remote-sensing-dior-model/blob/main/best_fixing-wrn_70_16.pth) |
+| Standard      | 4 | 99 | 52.33 | 0.00  | 52.33 | [ckpt](https://huggingface.co/MohammadFazli/xAI-remote-sensing-dior-model/blob/main/standard_remote_sensing.pth) |
 
 **Table — Remote Sensing Attribution Coverage.** Percent of attribution mass inside ground-truth boxes at the 5%, 25%, and 50% thresholds for Saliency Maps (SM), DeepLIFT (DL), and Integrated Gradients (IG).
 
