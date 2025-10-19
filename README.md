@@ -30,3 +30,14 @@
 - **Robustness:** report **clean** and **PGD** accuracy and **ΔAcc = clean − PGD**.
 - **Interpretability:** generate per-image attributions (Saliency / DeepLIFT / Integrated Gradients) and compute **coverage** (% attribution mass inside the ground-truth boxes).
 
+## Results
+**Table — Remote Sensing Results.** Test accuracy, adversarial accuracy (PGD, ℓ∞ ε=4/255), accuracy drop (ΔAcc), and links to fine-tuned checkpoints (ckpts).
+
+| Model | Performance Rank | RobustBench Rank | Test Acc (%) | PGD (4/255) (%) | Δ Acc (%) | Fine-tuned Checkpoint (ckpt) |
+|---|---:|---:|---:|---:|---:|:--:|
+| Chen et al.   | 3 | 38 | 57.33 | 43.00 | 14.33 | [ckpt](URL_OR_PATH) |
+| Rade et al.    | 1 | 21 | 67.67 | 47.33 | 20.34 | [ckpt](https://huggingface.co/HosseinRanjbar/remote_sensing/blob/main/best_helper_remote_sensing.pth) |
+| Rebuffi et al. | 2 | 11 | 68.33 | 37.33 | 31.00 | [ckpt](URL_OR_PATH) |
+| Standard      | 4 | 99 | 52.33 | 0.00  | 52.33 | [ckpt](URL_OR_PATH) |
+
+
