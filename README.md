@@ -20,9 +20,7 @@
 > **Implementation note:** We wrap the RobustBench models and train only the linear head for the RS dataset(s).
 
 ## Datasets
-- **Remote-sensing dataset(s) with bounding boxes** for objects of interest (e.g., aircraft, ships, vehicles).  
-  Use `scripts/prepare_remote_sensing.py` to download/prepare data and generate **train/val/test** splits.  
-  Bounding boxes are used to compute **attribution coverage**.
+- For remote sensing, we use a subset of the [DIOR dataset](https://arxiv.org/abs/1909.00133) comprising 3,100 images across 10 classes with splits of 2,500/300/300 (train/val/test).
 
 ## Training & Evaluation
 - **Optimization:** Adam (lr = 1e-3), batch size = 8 (adjust for GPU), up to 25 epochs with early stopping (patience = 5).
