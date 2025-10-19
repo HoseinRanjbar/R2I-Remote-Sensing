@@ -40,4 +40,14 @@
 | Rebuffi et al. | 2 | 11 | 68.33 | 37.33 | 31.00 | [ckpt](URL_OR_PATH) |
 | Standard      | 4 | 99 | 52.33 | 0.00  | 52.33 | [ckpt](URL_OR_PATH) |
 
+**Table — Remote Sensing Attribution Coverage.** Percent of attribution mass inside ground-truth boxes at the 5%, 25%, and 50% thresholds for Saliency Maps (SM), DeepLIFT (DL), and Integrated Gradients (IG).
+
+| Model | SM-5 | SM-25 | SM-50 | DL-5 | DL-25 | DL-50 | IG-5 | IG-25 | IG-50 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Chen et al. [11]   | 7.54 | 31.18 | 55.07 | 11.98 | 38.96 | 61.62 | 11.25 | 39.51 | 62.99 |
+| Rade et al. [9]    | 7.86 | 29.12 | 52.07 | 8.40  | 30.31 | 54.07 | 13.30 | 35.86 | 57.80 |
+| Rebuffi et al. [7] | 10.51 | 36.32 | 59.87 | 9.89  | 35.28 | 59.46 | 10.50 | 35.50 | 59.50 |
+| Standard [31]      | 3.18 | 16.38 | 36.34 | 5.59  | 23.35 | 45.77 | 5.37  | 23.80 | 47.29 |
+
+
 
