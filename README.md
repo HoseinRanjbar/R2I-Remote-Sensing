@@ -49,5 +49,10 @@
 | Rebuffi et al. [7] | 10.51 | 36.32 | 59.87 | 9.89  | 35.28 | 59.46 | 10.50 | 35.50 | 59.50 |
 | Standard [31]      | 3.18 | 16.38 | 36.34 | 5.59  | 23.35 | 45.77 | 5.37  | 23.80 | 47.29 |
 
+*Figure — Remote sensing qualitative results.* For the same scene (left, with red bounding boxes), attribution maps from four models are shown across methods (Saliency, DeepLIFT, Integrated Gradients, Occlusion). Robust models (Chen, Rade, Rebuffi) concentrate responses on the target objects, while the standard model yields diffuse, background-biased activations.
+
+<img width="2659" height="1699" alt="Picture2" src="https://github.com/user-attachments/assets/dcd1d2ac-b7d9-40b9-803b-e45406651761" />
+
+
 
 
